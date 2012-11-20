@@ -1,0 +1,20 @@
+{
+  "name": "Tumblr Photo Notify",
+  "version": "0.1",
+  "description":
+    "For someone who want to see photoes everytime.",
+  "icons": {"16": "16.png", "48": "48.png", "128": "128.png"},
+  "permissions": [
+    "tabs",
+    "notifications",
+    "http://api.tumblr.com/*"
+  ],
+  "options_page": "options.html",
+  "background": {"page": "background.html"},
+  "manifest_version": 2,
+
+  // crbug.com/134315
+  "web_accessible_resources": [
+    "48.png"
+  ]
+}
