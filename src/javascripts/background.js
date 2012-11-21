@@ -30,7 +30,7 @@ function show() {
   var img_url = get_img_url();
   console.log(img_url);
   var notification = window.webkitNotifications.createHTMLNotification(
-      'test.html' + '#' + img_url
+      'notification.html' + '#' + img_url
       );
   notification.ondisplay = function(){
     // 表示されてから自動で閉じる
