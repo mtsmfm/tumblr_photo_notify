@@ -3,14 +3,14 @@
   "version": "0.1",
   "description":
     "For someone who want to see photoes everytime.",
-  "icons": {"16": "16.png", "48": "48.png", "128": "128.png"},
+  "icons": {"16": "images/16.png", "48": "images/48.png", "128": "images/128.png"},
   "permissions": [
     "tabs",
     "notifications",
     "http://api.tumblr.com/*"
   ],
-  "options_page": "options.html",
-  "background": {"page": "background.html"},
+  "options_page": "templates/options.html",
+  "background": {"page": "templates/background.html"},
   "manifest_version": 2,
 
   // crbug.com/134315
