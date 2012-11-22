@@ -11,10 +11,5 @@
   ],
   "options_page": "templates/options.html",
   "background": {"page": "templates/background.html"},
-  "manifest_version": 2,
-
-  // crbug.com/134315
-  "web_accessible_resources": [
-    "48.png"
-  ]
+  "manifest_version": 2
 }
