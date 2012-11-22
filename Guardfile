@@ -9,7 +9,7 @@
 
 # -= Guarded paths =-
 
-PATHS = { :in => 'source', :out => 'html' }
+PATHS = { :in => 'src', :out => 'public' }
 
 # -= Guard preprocessors =-
 
