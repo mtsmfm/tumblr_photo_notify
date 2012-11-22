@@ -1,0 +1,21 @@
+!!!
+%html
+  %head
+    %title TumblrPhotoNotify
+    %link{:href => "../stylesheets/style.css", :rel => "stylesheet", :type => "text/css"}
+    %script{:src => "options.js"}
+  %body
+    %h1
+      %img{:alt => "Toast", :src => "../images/64.png"}
+      TumblrPhotoNotify
+    %h2 Options
+    %form#options
+      %input{:checked => "", :name => "isActivated", :type => "checkbox"}
+      Display a notification every
+      %select{:name => "frequency"}
+        %option 10
+        %option 30
+        %option 60
+      seconds(s).
+      %legend{:for => "blog_url"} Blog URL
+      %input#blog_url{:name => "blog_url", :type => "text"}
