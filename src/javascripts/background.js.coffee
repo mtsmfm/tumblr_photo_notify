@@ -59,3 +59,30 @@ if window.webkitNotifications
       show()
       interval = 0
   ), 1000
+
+@getCurrentIcon = () ->
+  icons =
+    on: "on.png"
+    off: "off.png"
+  if JSON.parse(localStorage.isActivated)
+    "/images/" + icons["on"]
+  else
+    "/images/" + icons["off"]
+
+@setTitle = () ->
+  title =
+    if JSON.parse(localStorage.isActivated)
+      'Click to disable TumblrPhotoNotify'
+    else
+      'Click to enable TumblrPhotoNotify'
+  chrome.browserAction.setTitle title: title
+
+@toggle = () ->
+  localStorage.isActivated = !JSON.parse(localStorage.isActivated)
+
+chrome.browserAction.setIcon path: @getCurrentIcon()
+
+chrome.browserAction.onClicked.addListener ->
+  @toggle()
+  chrome.browserAction.setIcon path: @getCurrentIcon()
+  @setTitle()
