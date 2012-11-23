@@ -32,10 +32,14 @@ GEM
       em-websocket (>= 0.2.0)
       guard (>= 1.5.0)
       multi_json (~> 1.0)
+    guard-markdown (0.2.0)
+      guard (>= 0.2.2)
+      kramdown (~> 0.13.3)
     guard-sass (1.0.1)
       guard (>= 1.1.0)
       sass (>= 3.1)
     haml (3.1.7)
+    kramdown (0.13.8)
     less (2.1.0)
       commonjs (~> 0.2.0)
       therubyracer (~> 0.10.0)
@@ -63,4 +67,5 @@ DEPENDENCIES
   guard-haml
   guard-less
   guard-livereload
+  guard-markdown
   guard-sass

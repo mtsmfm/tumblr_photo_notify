@@ -37,5 +37,11 @@ group :reload do
     watch(%r{#{PATHS[:out]}/.+\.html$})
     watch(%r{#{PATHS[:out]}/stylesheets/.+\.css$})
     watch(%r{#{PATHS[:out]}/javascripts/.+\.js$})
+
+    watch("README.html")
   end
+end
+
+guard 'markdown' do
+  watch ("README.md") { "./README.md|./README.html|./README.html.erb" } 
 end
