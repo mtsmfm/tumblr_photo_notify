@@ -1,6 +1,6 @@
 {
   "name": "Tumblr Photo Notify",
-  "version": "0.1",
+  "version": "0.1.1",
   "description":
     "For someone who want to see photoes everytime.",
   "icons": {"16": "images/16.png", "48": "images/48.png", "128": "images/128.png"},

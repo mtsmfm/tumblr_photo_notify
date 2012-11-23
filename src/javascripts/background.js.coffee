@@ -45,7 +45,7 @@ show = ->
 unless localStorage.isInitialized
   localStorage.isActivated = true # The display activation.
   localStorage.frequency = 60 # The display frequency, in seconds.
-  localStorage.blog_url = "mogumogu-menma.tumblr.com"
+  localStorage.blog_url = "hogemoga.tumblr.com"
   localStorage.isInitialized = true # The option initialization.
 
 # Test for notification support.
