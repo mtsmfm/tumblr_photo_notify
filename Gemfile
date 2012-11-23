@@ -15,6 +15,8 @@ gem 'guard-coffeescript'
 gem 'guard-sass'
 gem 'guard-less'
 
+gem 'guard-markdown'
+
 # -= Liverreload =-
 
 # Install browser extension to use this gem  http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-
