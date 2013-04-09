@@ -10,6 +10,10 @@ Chrome Web Store に公開しました。
 
 TumblrPhotoNotify is an extension for google chrome to watch photoes absently on Tumblr.
 
+This extension shows photos from tumblr blog like notification.
+You can choice specific URL about tumblr blog
+and change notification time in option page.
+
 # そのうちやりたいこと
 
 * 自身のダッシュボードから
